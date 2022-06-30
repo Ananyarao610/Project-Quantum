@@ -1,3 +1,3 @@
 # Project-Quantum
 
-A repository for Portfolio optimisation using Quantum computing for MTC
+A repository for Portfolio optimisation using Quantum computing for Micosoft
