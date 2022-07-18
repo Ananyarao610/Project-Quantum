@@ -1,0 +1,7 @@
+Applications and Computational Advances for
+Solving the QUBO Model -
+http://meta-analytics.net/wp-content/uploads/2020/12/Applications-and-Computational-Advances-for-Solving-the-QUBO-Model.pdf
+
+Classical vs Quantum for portfolio optimization -
+https://www.researchgate.net/publication/343786420_Portfolio_Optimization_of_60_Stocks_Using_Classical_and_Quantum_Algorithms#pf7
+
