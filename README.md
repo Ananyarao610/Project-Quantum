@@ -1,3 +1,13 @@
 # Project-Quantum
 
-A repository for Portfolio optimisation using Quantum computing for Micosoft
+## Problem Statement
+
+
+
+## Dataset
+
+## Objective Function
+
+## Budget Constraint
+
+## Solver 
