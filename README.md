@@ -14,7 +14,7 @@ Parallel tempering is a computer simulation method typically used to find the lo
 
 ## Objective Function
 
-This problem is classically represented as a <i> Mixed Integer Quadratic Progamming (MIQP) </i> problem as follows:
+This problem is classically represented as a <i><b> Mixed Integer Quadratic Progamming (MIQP) </b></i> problem as follows:
 
 ![alt text](https://github.com/Ananyarao610/Project-Quantum/blob/main/misc/MIQP%20eq.png)
 
