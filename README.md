@@ -8,6 +8,7 @@ The problem is submitted to Microsoft azure's Quantum Inspired Optimizer and sol
 
 
 ## Algorithm
+Our objective function is a Quadratic Unconstrained Binary Optimization (QUBO). QUBO is an <i><b>NP hard problem</b></i>. 
 
 ## Objective Function
 
