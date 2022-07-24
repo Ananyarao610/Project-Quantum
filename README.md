@@ -39,8 +39,6 @@ To be able to quantise the problem, it is mapped to a QUBO problem with soft con
 
 
 
-
-
 ## Dataset
   
 1)	D-wave’s 3 stock optimization (https://github.com/dwave-examples/portfolio-optimization)
