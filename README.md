@@ -12,16 +12,6 @@ Our objective function is a <i> Quadratic Unconstrained Binary Optimization (QUB
 
 Parallel tempering is a computer simulation method typically used to find the lowest free energy state of a system of many interacting particles at low temperature. 
 
-## Objective Function
-
-This problem is classically represented as a <i> Mixed Integer Quadratic Progamming (MIQP) </i> problem as follows:
-
-![alt text](https://github.com/Ananyarao610/Project-Quantum/blob/main/misc/MIQP%20eq.png)
-
-To be able to quantise the problem, it is mapped to a QUBO problem with soft constraints for added functionality. Thus the objective function used is given by the QUBO problem's hamiltonian as:
-
-![alt text](<https://github.com/Ananyarao610/Project-Quantum/blob/main/misc/QUBO%20eq.png>)
-
 
 ## Functionality and Modelling
 
@@ -35,6 +25,20 @@ In one time period, r∈Rn is the return vector where ri is the return on asset 
 The return vector r can be modelled as a random variable with mean E[r]=μ and covariance E[(r−μ)(r−μ)T]=Σ. It follows that the portfolio return is also a random variable with mean E[R]=μTx and variance Var[R]=xTΣx.
   
 MPT assumes the investor is risk averse - meaning given the option between two portfolios with the same expected return, they will choose the one with ther least risk.
+
+
+## Objective Function
+
+This problem is classically represented as a <i> Mixed Integer Quadratic Progamming (MIQP) </i> problem as follows:
+
+![alt text](https://github.com/Ananyarao610/Project-Quantum/blob/main/misc/MIQP%20eq.png)
+
+To be able to quantise the problem, it is mapped to a QUBO problem with soft constraints for added functionality. Thus the objective function used is given by the QUBO problem's hamiltonian as:
+
+![alt text](<https://github.com/Ananyarao610/Project-Quantum/blob/main/misc/QUBO%20eq.png>)
+
+
+
 
 
 ## Dataset
