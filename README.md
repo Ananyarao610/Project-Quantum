@@ -16,11 +16,11 @@ Parallel tempering is a computer simulation method typically used to find the lo
 
 This problem is classically represented as a <i> Mixed Integer Quadratic Progamming (MIQP) </i> problem as follows:
 
-<insert image link here>
+<https://github.com/Ananyarao610/Project-Quantum/blob/main/misc/MIQP%20eq.png>
 
 To be able to quantise the problem, it is mapped to a QUBO problem with soft constraints for added functionality. Thus the objective function used is given by the QUBO problem's hamiltonian as:
 
-<insert image link here>
+<https://github.com/Ananyarao610/Project-Quantum/blob/main/misc/QUBO%20eq.png>
   
 ## Functionality and Modelling
 
