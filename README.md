@@ -8,7 +8,9 @@ The problem is submitted to Microsoft azure's Quantum Inspired Optimizer and sol
 
 
 ## Algorithm
-Our objective function is a Quadratic Unconstrained Binary Optimization (QUBO). QUBO is an <i><b>NP hard problem</b></i>. 
+Our objective function is a Quadratic Unconstrained Binary Optimization (QUBO). QUBO is an <i><b>NP hard problem</b></i> which can be solved through quantum anneling or parallel tempering.
+
+Parallel tempering is a computer simulation method typically used to find the lowest free energy state of a system of many interacting particles at low temperature. 
 
 ## Objective Function
 
