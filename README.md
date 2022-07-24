@@ -16,12 +16,13 @@ Parallel tempering is a computer simulation method typically used to find the lo
 
 This problem is classically represented as a <i> Mixed Integer Quadratic Progamming (MIQP) </i> problem as follows:
 
-<https://github.com/Ananyarao610/Project-Quantum/blob/main/misc/MIQP%20eq.png>
+![alt text](https://github.com/Ananyarao610/Project-Quantum/blob/main/misc/MIQP%20eq.png)
 
 To be able to quantise the problem, it is mapped to a QUBO problem with soft constraints for added functionality. Thus the objective function used is given by the QUBO problem's hamiltonian as:
 
-<https://github.com/Ananyarao610/Project-Quantum/blob/main/misc/QUBO%20eq.png>
-  
+![alt text](<https://github.com/Ananyarao610/Project-Quantum/blob/main/misc/QUBO%20eq.png>)
+
+
 ## Functionality and Modelling
 
 The optimal portfolio allocation is found by maximising the expected portfolio fractional return and minimising the portfolio variance. Since an investor might also have a constraint on budget which can affect the optimal portfolio available to them, the problem defintion is subjected to a budget constraint. In order to quantize the problem, the weight of eachs stock in the portfolio is replaced by a decision vector. Consequently the budget is normalized to the stock appetite, or the number of stocks an investor can/wants to invest in and is applied as a soft constraint by making use of a slack variable. Finally in an attempt to conceptualise the optimized portfolio, the code allows for the equal distribution of an actual given budget and calcualtes the number of shares for each selected stock proportionally.
