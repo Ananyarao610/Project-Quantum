@@ -21,14 +21,6 @@ Essentially, one runs N copies of the system, randomly initialized, at different
 
 The optimal portfolio allocation is found by maximising the expected portfolio fractional return and minimising the portfolio variance. Since an investor might also have a constraint on budget which can affect the optimal portfolio available to them, the problem defintion is subjected to a budget constraint. In order to quantize the problem, the weight of eachs stock in the portfolio is replaced by a decision vector. Consequently the budget is normalized to the stock appetite, or the number of stocks an investor can/wants to invest in and is applied as a soft constraint by making use of a slack variable. Finally in an attempt to conceptualise the optimized portfolio, the code allows for the equal distribution of an actual given budget and calcualtes the number of shares for each selected stock proportionally.
   
- 
-----rough points
-
-In one time period, r∈Rn is the return vector where ri is the return on asset i. The return is the difference in price divided by the price at the beginning of the period: ri=pt+1−ptpt. Portfolio return R is given by: R=rTx.
-
-The return vector r can be modelled as a random variable with mean E[r]=μ and covariance E[(r−μ)(r−μ)T]=Σ. It follows that the portfolio return is also a random variable with mean E[R]=μTx and variance Var[R]=xTΣx.
-  
-MPT assumes the investor is risk averse - meaning given the option between two portfolios with the same expected return, they will choose the one with ther least risk.
 
 
 ## Objective Function
