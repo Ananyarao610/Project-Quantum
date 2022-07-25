@@ -4,7 +4,7 @@
 
 This is a <b> <i> Quantum Inspired Optimization (QIO) </i> </b> based on the <i> Modern Portfolio Theory (MPT) </i>. It performs a multi-ojective portfolio optimisation which involves selecting the best portfolio (asset distribution) out of the given set of assets such that the expected returns from the ivestment is maximised and the risk is minimized. The problem defintion is transformed mathematically so that it can be quantised, or made compatible with quantum computing.
 
-The quantised problem makes use of <b> <i> Microsoft Azure's  Quantum Inspired Optimizer </i> </b>and is solved using the <b><i> Parallel Tempering solver </i></b>. 
+The quantised problem makes use of  Microsoft Azure's Quantum Inspired Optimizer >and is solved using the <b><i> Parallel Tempering solver </i></b>. 
 
 ## Algorithm
 
