@@ -5,3 +5,39 @@ http://meta-analytics.net/wp-content/uploads/2020/12/Applications-and-Computatio
 Classical vs Quantum for portfolio optimization -
 https://www.researchgate.net/publication/343786420_Portfolio_Optimization_of_60_Stocks_Using_Classical_and_Quantum_Algorithms#pf7
 
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+Quantum computing- introduction
+- Uses the laws of quantum mechanics to solve problems which are too complex for classical computers.
+- Classical computers are made of bits which can hold 0 or 1, whereas quantum computers are made of qubits which can hold value 0 or 1
+or a quantum superposition of these states.
+
+- QIO - set of algorithms used for optimization which run on classical hardware but use principles of quantum to increase performance.
+    Based on the problem and the data used, quantum computing can-
+    Find a solution faster than other optimization techniques for a fixed use case and fixed quality of solution.
+    Find a higher quality solution than other optimization techniques for a fixed problem and fixed amount of time.
+    Use a more realistic model than other optimization techniques by extending the problem to consider more variables.
+
+- Portfolio optimization - select a subset of most optimal stocks out of a given set of stocks, and find how much should be invested
+to make maximum return, with minimum risk. 
+
+
+- Parallel tempering - It is a quantum inspired optimizer which is used to used to find the lowest free energy state of a system 
+  of many interacting particles at low temperature. 
+
+- show code (?)
+- graph showing advantage of quantum 
+
+
+[
+    If there are 4 states, classical computers need 2 bits to store them as 00,01,10,11 
+    Quantum can store any of the 4 states in a single bit as it can store 0,1 and their superpositions.
+    This when scaled, gives a significant increase of performance over classical.
+    
+]
+
+
+

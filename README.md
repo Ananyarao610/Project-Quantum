@@ -4,13 +4,13 @@
 
 This is a <b> <i> Quantum Inspired Optimization (QIO) </i> </b> based on the <i> Modern Portfolio Theory (MPT) </i>. It performs a multi-ojective portfolio optimisation which involves selecting the best portfolio (asset distribution) out of the given set of assets such that the expected returns from the ivestment is maximised and the risk is minimized. The problem defintion is transformed mathematically so that it can be quantised, or made compatible with quantum computing.
 
-The quantised problem makes use of  Microsoft Azure's Quantum Inspired Optimizer >and is solved using the <b><i> Parallel Tempering solver </i></b>. 
+The quantised problem makes use of  Microsoft Azure's Quantum Inspired Optimizer and is solved using the <b><i> Parallel Tempering solver </i></b>. 
 
 ## Algorithm
 
-Our objective function is a <i> Quadratic Unconstrained Binary Optimization (QUBO) </i>. QUBO is an <i><b>NP hard problem</b></i> which can be solved through quantum anneling or parallel tempering.In our solution, we have submitted our model to the <b><i>Parallel Tempering solver of Azure Quantum.</i></b>
+Our objective function is a <i> Quadratic Unconstrained Binary Optimization (QUBO) </i>. QUBO is an <i><b>NP hard problem</b></i> which can be solved through quantum anneling or parallel tempering. In our solution, we have submitted our model to the <b><i>Parallel Tempering solver of Azure Quantum.</i></b>
 
-Parallel tempering is a computer simulation method typically used to find the lowest free energy state of a system of many interacting particles at low temperature.More specifically, parallel tempering (also known as replica exchange MCMC sampling), is a simulation method aimed at improving the dynamic properties of Monte Carlo method simulations of physical systems.
+Parallel tempering is a computer simulation method typically used to find the lowest free energy state of a system of many interacting particles at low temperature. More specifically, parallel tempering (also known as replica exchange MCMC sampling), is a simulation method aimed at improving the dynamic properties of Monte Carlo method simulations of physical systems.
 
 Essentially, one runs N copies of the system, randomly initialized, at different temperatures. Then, based on the Metropolis criterion one exchanges configurations at different temperatures. The idea of this method is to make configurations at high temperatures available to the simulations at low temperatures and vice versa. This results in a very robust ensemble which is able to sample both low and high energy configurations. In this way, thermodynamical properties such as the specific heat, which is in general not well computed in the canonical ensemble, can be computed with great precision.
 
