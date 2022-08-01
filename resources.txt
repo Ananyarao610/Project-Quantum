@@ -39,5 +39,18 @@ to make maximum return, with minimum risk.
     
 ]
 
+---------------------------------------------------------------------------------------------------------
 
+quantum computer harnesses the features of both a particle and a wave, which allows it to explore many different solutions at once, 
+which is called “quantum parallelism.”.
+Additionally, quantum computers are not affected by noise and can function in extreme conditions, perfect for AI and machine 
+learning applications. Another advantage is that quantum computers can overcome errors in traditional computing systems.
+Finally, quantum computers can store and process large amounts of data, which is essential for artificial intelligence and 
+machine learning models.
+(https://www.analyticsvidhya.com/blog/2022/04/is-quantum-computing-the-future-of-artificial-intelligence/)
+
+
+"The differences between quantum computers and classical computers are even more vast than those between classical computers 
+and pen and paper," Peter Chapman, CEO of quantum startup IonQ, told Insider.
+"Because quantum computers process information differently, they are expected to be able to address humanity's greatest challenges."
 
