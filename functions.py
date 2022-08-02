@@ -5,8 +5,6 @@ import pandas as pd
 import matplotlib.pyplot as plt  
 import math
 from typing import List
-from azure.quantum.optimization import Problem, ProblemType, Term
-from azure.quantum.optimization import ParallelTempering
 from azure.quantum.optimization import Term, SlcTerm
 from statistics import variance
 
@@ -36,6 +34,8 @@ def return_terms(mu,n):
     print("Number of terms in return: ", len(terms))
     return terms
 
+
+
 def risk(sigma,n,risk_aversion):
     
     """Calculates the Terms for the risk component of the cost function
@@ -62,6 +62,8 @@ def risk(sigma,n,risk_aversion):
             terms.append(Term(c= sigma[i][j] * (risk_aversion/2) , indices=[i,j]))
     print("Number of terms in risk: ", len(terms))
     return terms
+
+
 
 
 
@@ -98,6 +100,8 @@ def budget_constraint(penalty_weight,n,b):
     return slc
 
 
+
+
 def find_risk(selected_stocks,n, result,sigma):
     
     '''Calculates the risk for the optimised portfolio
@@ -122,6 +126,8 @@ def find_risk(selected_stocks,n, result,sigma):
     risk = var**0.5
     risk_perc = risk * 100
     return risk_perc
+
+
 
 
 def find_expected_daily_return(mu, selected_stocks, index_prices_selected):
