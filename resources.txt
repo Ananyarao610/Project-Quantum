@@ -5,52 +5,44 @@ http://meta-analytics.net/wp-content/uploads/2020/12/Applications-and-Computatio
 Classical vs Quantum for portfolio optimization -
 https://www.researchgate.net/publication/343786420_Portfolio_Optimization_of_60_Stocks_Using_Classical_and_Quantum_Algorithms#pf7
 
+Risk and return-
+https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/637f2121ff813c0385c42c8f7d376761_MIT15_401F08_lec12.pdf
+
+
+Portfolio theory-
+https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/dd628e151309a7f23962b1a31b9356e5_MIT15_401F08_lec13.pdf
+
+
+Mixed-Integer Quadratic Programming (with constraints) 
+https://in.mathworks.com/help/optim/ug/miqp-portfolio-problem-based.html
+
+Comparing Classical-Quantum Portfolio Optimization with Enhanced Constraints
+https://arxiv.org/pdf/2203.04912.pdf
+
 ----------------------------------------------------------------------------------------------------------------------------------
 
+Giacomo Nannicini. Performance of hybrid
+quantum-classical variational heuristics for
+combinatorial optimization. Physical Review
+E, 99:013304, Jan 2019. DOI: 10.1103/PhysRevE.99.013304.
+
+Jeffrey Cohen, Alex Khan, and Clark Alexander. Portfolio optimization of 40 stocks using the dwave quantum
+annealer, 2020
+
+Jeffrey Cohen, Alex Khan, and Clark Alexander. Portfolio optimization of 60 stocks using classical and quantum
+algorithms, 2020.
+
+Dylan Herman, Cody Googin, Xiaoyuan Liu, Alexey
+Galda, Ilya Safro, Yue Sun, Marco Pistoia, and Yuri Alexeev. A survey of quantum computing for finance, 2022
+
+Harry Markowitz. Portfolio selection. The Journal of Finance, 7(1):77–91, 1952.
+
+Salvatore Certo, Anh Dung Pham, and Daniel Beaulieu1. Comparing Classical-Quantum Portfolio Optimization with Enhanced Constraints
+Dated: March 10, 2022
+
+Panagiotis Kl Barkoutsos, Giacomo Nannicini, Anton Robert, Ivano Tavernelli, and Stefan Woerner- 
+Improving Variational Quantum Optimization using CVaR
+arXiv:1907.04769v3 [quant-ph] 13 Apr 2020
 
 
-
-Quantum computing- introduction
-- Uses the laws of quantum mechanics to solve problems which are too complex for classical computers.
-- Classical computers are made of bits which can hold 0 or 1, whereas quantum computers are made of qubits which can hold value 0 or 1
-or a quantum superposition of these states.
-
-- QIO - set of algorithms used for optimization which run on classical hardware but use principles of quantum to increase performance.
-    Based on the problem and the data used, quantum computing can-
-    Find a solution faster than other optimization techniques for a fixed use case and fixed quality of solution.
-    Find a higher quality solution than other optimization techniques for a fixed problem and fixed amount of time.
-    Use a more realistic model than other optimization techniques by extending the problem to consider more variables.
-
-- Portfolio optimization - select a subset of most optimal stocks out of a given set of stocks, and find how much should be invested
-to make maximum return, with minimum risk. 
-
-
-- Parallel tempering - It is a quantum inspired optimizer which is used to used to find the lowest free energy state of a system 
-  of many interacting particles at low temperature. 
-
-- show code (?)
-- graph showing advantage of quantum 
-
-
-[
-    If there are 4 states, classical computers need 2 bits to store them as 00,01,10,11 
-    Quantum can store any of the 4 states in a single bit as it can store 0,1 and their superpositions.
-    This when scaled, gives a significant increase of performance over classical.
-    
-]
-
----------------------------------------------------------------------------------------------------------
-
-quantum computer harnesses the features of both a particle and a wave, which allows it to explore many different solutions at once, 
-which is called “quantum parallelism.”.
-Additionally, quantum computers are not affected by noise and can function in extreme conditions, perfect for AI and machine 
-learning applications. Another advantage is that quantum computers can overcome errors in traditional computing systems.
-Finally, quantum computers can store and process large amounts of data, which is essential for artificial intelligence and 
-machine learning models.
-(https://www.analyticsvidhya.com/blog/2022/04/is-quantum-computing-the-future-of-artificial-intelligence/)
-
-
-"The differences between quantum computers and classical computers are even more vast than those between classical computers 
-and pen and paper," Peter Chapman, CEO of quantum startup IonQ, told Insider.
-"Because quantum computers process information differently, they are expected to be able to address humanity's greatest challenges."
-
+----------------------------------------------------------------------------------------------------------------------------------
