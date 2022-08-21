@@ -37,9 +37,5 @@ To be able to quantise the problem, it is mapped to a QUBO problem with soft con
 
 ## Dataset
   
-1)	D-wave’s 3 stock optimization (https://github.com/dwave-examples/portfolio-optimization)
-  
-2)	Kaggle’s Australian Historical Stock Prices (https://www.kaggle.com/code/ashbellett/portfolio-optimisation/notebook)
-  
-3)	Bombay Stock Exchange (BSE) Historical data for top 50 stocks for the last 20 years (https://www.bseindia.com/markets/equity/EQReports/StockPrcHistori.html?flag=0)
+Bombay Stock Exchange (BSE) Historical data for top 50 stocks for the last 20 years (https://www.bseindia.com/markets/equity/EQReports/StockPrcHistori.html?flag=0)
 
